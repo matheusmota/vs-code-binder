@@ -5,7 +5,7 @@
 #             moving to a local installation folder           #
 ###############################################################
 
-mkdir ~/resources/local
+mkdir -p ~/resources/local
 cd    ~/resources/local
 
 
