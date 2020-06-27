@@ -1,3 +1,2 @@
-
 jupyter-server-proxy
-numpy
+jupyter-vscode-proxy
