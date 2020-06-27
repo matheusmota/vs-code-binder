@@ -1,16 +1,10 @@
 #!/bin/bash
 
-
-###############################################################
-#             moving to a local installation folder           #
-###############################################################
-
 mkdir -p ~/resources/local
 cd    ~/resources/local
 
-
 ###############################################################
-#             vscode installation commands                    #
+#             vscode server installation                      #
 ###############################################################
 
 
@@ -23,7 +17,7 @@ echo "export CODE_SERVER_HOME=${CODE_SERVER_HOME}"       >> ~/.bashrc
 echo "export CODE_SERVER_HOME=${CODE_SERVER_HOME}"       >> ~/.profile
 
 
-# Download and install VS Code server
+# Download and install VSCode server
 wget -q -O code-server.tar.gz https://github.com/cdr/code-server/releases/download/$CODE_SERVER_VERSION/code-server-$CODE_SERVER_VERSION-linux-x86_64.tar.gz                            
 tar xzf code-server.tar.gz
 mv code-server-${CODE_SERVER_VERSION}-linux-x86_64 code-server-$CODE_SERVER_VERSION
@@ -34,6 +28,4 @@ echo "export PATH=\$PATH:\$CODE_SERVER_HOME/bin"   >> ~/.bashrc
 echo "export PATH=\$PATH:\$CODE_SERVER_HOME/bin"   >> ~/.profile
 
 source ~/.bashrc
-
-pip install jupyter-vscode-proxy
 
