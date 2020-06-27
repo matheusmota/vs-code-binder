@@ -4,12 +4,11 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/matheusmota/vs-code-binder/master)
 
-Edit the URL and replace the "/tree" by "/proxy/8080/".
+Edit the URL and replace the ending "/tree" by either "/vscode/" or "/proxy/8080/".
 
 #### Option 2
 
 [![launch @ mybinder.org][badge-vscode]](https://mybinder.org/v2/gh/matheusmota/vs-code-binder/master?urlpath=proxy/8080/)
-
 
 
 
