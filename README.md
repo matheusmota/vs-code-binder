@@ -1,4 +1,4 @@
-# vs-code-binder
+# vscode-binder template
 
 #### Option 1
 
