@@ -1,6 +1,9 @@
 {
     "files.exclude": {
         "**/.bashrc": true,
+        "**/.bash_logout": true,
+        "**/.wget-hsts": true,
+        "**/.profile": true,
         "**/.cache": true,
         "**/.config": true,
         "**/.jupyter": true,
