@@ -1,2 +1,7 @@
 jupyter-server-proxy
 jupyter-vscode-proxy
+
+
+#quick test
+
+imongo-kernel
